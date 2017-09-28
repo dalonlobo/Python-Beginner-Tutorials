@@ -47,3 +47,48 @@ print("The sum of %d + %d = %d" % (a, b, a + b))
 
 # Using .format method on strings
 print("The sum of {0} + {1} = {2}".format(a, b, a + b))
+
+print(len(myVar))  # To find the length of string
+
+# Lists demo
+
+l1 = [1, 2, 3, 4]  # Creating a list
+
+for item in l1:    # Iterating over a list
+    print(item)
+
+for idx, val in enumerate(l1):  # Iterating over a list with enumerate
+    print(idx, val)
+
+# Range function generator to print the numbers
+for i in range(10, 40, 5):
+    print(i)
+
+# Appending to list
+l1.append([5, 6, 7])
+
+print(l1)
+
+# Tuple
+# Initialize tuple with ()
+t = (1, 2, "string here")
+
+print(t)
+
+# Check the data type of t
+print(type(t))
+
+# Dictionary
+
+# Initialize
+d = dict()  # or d = {}
+d[1] = "Dalon"
+d[2] = 1234
+d["key"] = 345
+d[(1,2)] = [1, 2, 3]
+
+print(d)
+
+# popping a key from dictionary
+print(d.pop(1))
+
